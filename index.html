@@ -4,33 +4,43 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Huey Freeman</title>
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Your CSS file -->
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="index.html">Huey Freeman</a></li>
-          <li><a href="index.html">Analysis</a></li>
-          <li><a href="index.html">Work</a></li>
-          <li><a href="#my-work">Questions</a></li>
-          <li><a href="index.html">Contact</a></li>
-        </ul>
-      </nav>
+    <!-- NAVIGATION -->
+    <nav>
+      <ul>
+        <li><a href="index.html">Huey Freeman</a></li>
+        <li><a href="#analysis">Analysis</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#questions">Questions</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
 
+    <!-- HEADER -->
+    <header>
       <div class="flex-container">
         <img
-          height="400px"
-          width="300px"
           src="images/potrait.jpg"
           alt="Huey Freeman"
+          height="400"
+          width="300"
         />
         <div class="text-container">
           <h1>My name is Huey Freeman</h1>
           <p>
-            I study power, history and the systems thaat keeps people oppressed.
-            I don't do small talk or soft truths
+            I study power, history, and the systems that keep people oppressed.
+            I don’t do small talk or soft truths.
           </p>
-
           <a href="#work" class="cta-button">See the Work</a>
           <a href="#questions" class="cta-button secondary"
             >Read the Questions</a
@@ -38,5 +48,106 @@
         </div>
       </div>
     </header>
+
+    <!-- WHAT I DO -->
+    <section id="analysis">
+      <h2>What I Do</h2>
+      <p>
+        I break down the forces that shape our lives — media, politics, culture,
+        and history — without the usual excuses or distractions. My work is for
+        people who want clarity, not comfort.
+      </p>
+
+      <div class="services">
+        <div>
+          <h3>Political Analysis</h3>
+          <p>
+            Examining power structures and the narratives used to maintain them.
+          </p>
+        </div>
+        <div>
+          <h3>Historical Context</h3>
+          <p>Connecting present conditions to the past that created them.</p>
+        </div>
+        <div>
+          <h3>Independent Writing</h3>
+          <p>Essays and commentary free from corporate or partisan filters.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SELECTED WORK -->
+    <section id="work">
+      <h2>Selected Work</h2>
+      <p>
+        Writing and analysis on power, resistance, and the stories we are told.
+      </p>
+
+      <div class="gallery">
+        <div class="gallery-item">
+          <img src="images/work1.jpg" alt="Essay on media control" />
+          <p>On Media and Manufactured Consent</p>
+        </div>
+        <div class="gallery-item">
+          <img src="images/work2.jpg" alt="Historical analysis" />
+          <p>Lessons from Past Movements</p>
+        </div>
+        <div class="gallery-item">
+          <img src="images/work3.jpg" alt="Cultural critique" />
+          <p>Culture as a Battlefield</p>
+        </div>
+        <div class="gallery-item">
+          <img src="images/work4.jpg" alt="Political essay" />
+          <p>Why Soft Politics Fail</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- QUESTIONS -->
+    <section id="questions">
+      <h2>Common Questions</h2>
+
+      <div class="faq-item">
+        <h3>Why are you so serious all the time?</h3>
+        <p>
+          Because the conditions we live under are serious. Humor has its place,
+          but it should never replace clear thinking.
+        </p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Do you hate everything?</h3>
+        <p>
+          No. I hate systems that exploit people while pretending to help them.
+          There’s a difference.
+        </p>
+      </div>
+
+      <div class="faq-item">
+        <h3>What’s the point of all this analysis?</h3>
+        <p>
+          Understanding how power works is the first step toward changing it.
+          Without that, action is just noise.
+        </p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Are you trying to start a revolution?</h3>
+        <p>
+          I’m trying to make sure people stop being easily deceived. What they
+          do with that knowledge is up to them.
+        </p>
+      </div>
+    </section>
+
+    <!-- CONTACT / FOOTER -->
+    <footer id="contact">
+      <h2>Contact</h2>
+      <p>
+        If you have something serious to say, write. I don’t respond to empty
+        praise or arguments made in bad faith.
+      </p>
+      <p>Email: huey@example.com</p>
+    </footer>
   </body>
 </html>
